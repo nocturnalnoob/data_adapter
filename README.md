@@ -26,8 +26,8 @@ adapter/
   selection.py                   post-association cap-to-class_max by track support
   interpolate.py                  [beyond scope] gap-fill + leaving-frame test
   pipeline.py                      orchestrates the mandated stage order
-  calibrate.py                      SS7: mines thresholds from the corpus
-  validate.py                        SS8: precision/recall + interpolation-rate monitor
+  calibrate.py                      §7: mines thresholds from the corpus
+  validate.py                        §8: precision/recall + interpolation-rate monitor
 scripts/
   devset.py       ranks the 39 clips by bystander-frame density (dev-set selection)
   run_pipeline.py CLI: run the adapter over one/all clips -> hand_boxes_corrected.json
