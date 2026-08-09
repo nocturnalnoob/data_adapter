@@ -1,0 +1,109 @@
+{
+ "size_shape_speed": {
+  "n_boxes": 146605,
+  "area_pct": {
+   "1": 7445.788632000006,
+   "5": 12636.391420000009,
+   "50": 44065.901200000015,
+   "95": 136773.42515999987,
+   "99": 263459.1531719996,
+   "99.5": 306700.5599700017
+  },
+  "aspect_pct": {
+   "50": 1.1962228131178843,
+   "90": 1.5663642518002758,
+   "95": 1.7615293175716817,
+   "99": 2.801507108499274,
+   "99.5": 3.7964408266369336
+  },
+  "speed_pct": {
+   "50": 9.030671348038926,
+   "90": 37.628078146273474,
+   "95": 52.56217522674939,
+   "99": 95.82358691231707,
+   "99.5": 118.99212584641947,
+   "99.9": 227.8871746412086
+  }
+ },
+ "dropout": {
+  "n_gaps": 1971,
+  "gap_pct": {
+   "50": 2.0,
+   "75": 7.0,
+   "90": 22.0,
+   "95": 43.0,
+   "99": 131.0
+  },
+  "max_gap_seen": 177
+ },
+ "pool_width_ranks_p95": 3.0,
+ "n_pool_samples": 8376,
+ "stereo": {
+  "n_wearer": 651,
+  "n_bystander": 337,
+  "threshold": 8.844221105527637,
+  "accuracy": 0.6720647773279352,
+  "trusted": false,
+  "reason": "wearer-labeled boxes have LOWER median disparity than bystander-labeled boxes -- backwards from physical expectation (closer = larger disparity). The 'top-2-longest-track = wearer' weak label is likely dominated by near-duplicate/detector-noise boxes at the same depth as the real hand in multi-box frames, not genuine distant bystanders. Needs labelled examples.",
+  "wearer_median": 59.0,
+  "bystander_median": 66.0
+ },
+ "camera_motion": {
+  "speed_pct": {
+   "10": 0.034,
+   "25": 0.054,
+   "40": 0.078,
+   "50": 0.099,
+   "75": 0.224,
+   "90": 0.597
+  },
+  "ang_rate_pct": {
+   "10": 0.0,
+   "25": 0.0,
+   "40": 0.3355592347112577,
+   "50": 0.45672748986678036,
+   "75": 0.8931965069345262,
+   "90": 1.5647555718881276
+  }
+ },
+ "static_motion": {
+  "n": 107326,
+  "pct": {
+   "1": 0.5653759797989907,
+   "5": 1.5500322546452507,
+   "10": 2.5558731382815165,
+   "25": 5.383712705696085,
+   "50": 11.278522176557402
+  }
+ },
+ "derived_config": {
+  "class_name": "hands",
+  "class_max": 2,
+  "candidate_pool_width": 3,
+  "duplicate_overlap_threshold": 0.6,
+  "min_area_px2": 3722.894316000003,
+  "max_area_px2": 460050.83995500254,
+  "max_aspect_ratio": 3.0816578193492017,
+  "stereo_enabled": false,
+  "reach_disparity_threshold_px": null,
+  "stereo_match_min_confidence": 0.5,
+  "max_speed_px_per_frame": 142.79055101570336,
+  "association_iou_weight": 0.5,
+  "min_track_len_supported": 3,
+  "static_window_frames": 15,
+  "static_motion_px_threshold": 2.5558731382815165,
+  "static_correlation_threshold": 0.2,
+  "camera_speed_moving_thresh": 0.078,
+  "camera_ang_moving_thresh_deg": 0.3355592347112577,
+  "max_dropout_frames": 22,
+  "resume_gate_px": 60.0,
+  "border_margin_px": 50.0,
+  "border_weights": {
+   "top": 0.6,
+   "bottom": 1.6,
+   "left": 1.0,
+   "right": 1.0
+  },
+  "outward_velocity_min_px_per_frame": 2.0
+ }
+}

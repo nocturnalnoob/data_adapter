@@ -1,3 +1,6 @@
+# local dataset + credentialed download script (not part of the submission)
+s2_download.py
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

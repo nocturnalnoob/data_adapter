@@ -1,0 +1,1664 @@
+{
+ "per_clip": {
+  "0c54a47b_t010": {
+   "status_counts": {
+    "reported": 4784,
+    "merged": 183,
+    "rejected": 99,
+    "interpolated": 339
+   },
+   "proxy_precision_recall": {
+    "raw": {
+     "n_survivors": 5287,
+     "precision_proxy": 0.9933799886514091,
+     "recall_proxy": 1.0
+    },
+    "geometric": {
+     "n_survivors": 5246,
+     "precision_proxy": 0.9933282500953107,
+     "recall_proxy": 0.9921934501142422
+    },
+    "temporal": {
+     "n_survivors": 5220,
+     "precision_proxy": 0.9936781609195402,
+     "recall_proxy": 0.9876237623762376
+    },
+    "cap": {
+     "n_survivors": 5174,
+     "precision_proxy": 0.9943950521839969,
+     "recall_proxy": 0.9796268088347296
+    }
+   },
+   "frame_coverage_recall": {
+    "n_stable_track_frames": 5036,
+    "recall_without_interpolation": 0.9851072279586974,
+    "recall_with_interpolation": 0.9872915011914217,
+    "recall_gain_from_interpolation": 0.0021842732327243845
+   },
+   "multibox_resolution": {
+    "n_multibox_frames": 208,
+    "frac_resolved_to_cap": 0.9278846153846154
+   },
+   "interpolation_rate": 0.06271970397779833
+  },
+  "130d64c7_t054": {
+   "status_counts": {
+    "reported": 1228,
+    "merged": 641,
+    "interpolated": 453,
+    "rejected": 76
+   },
+   "proxy_precision_recall": {
+    "raw": {
+     "n_survivors": 2797,
+     "precision_proxy": 0.9849839113335717,
+     "recall_proxy": 1.0
+    },
+    "geometric": {
+     "n_survivors": 2779,
+     "precision_proxy": 0.9848866498740554,
+     "recall_proxy": 0.9934664246823957
+    },
+    "temporal": {
+     "n_survivors": 2698,
+     "precision_proxy": 0.9848035581912528,
+     "recall_proxy": 0.9644283121597096
+    },
+    "cap": {
+     "n_survivors": 2692,
+     "precision_proxy": 0.9855126300148589,
+     "recall_proxy": 0.9629764065335753
+    }
+   },
+   "frame_coverage_recall": {
+    "n_stable_track_frames": 1903,
+    "recall_without_interpolation": 0.9632159747766684,
+    "recall_with_interpolation": 0.9926431949553337,
+    "recall_gain_from_interpolation": 0.029427220178665267
+   },
+   "multibox_resolution": {
+    "n_multibox_frames": 207,
+    "frac_resolved_to_cap": 0.961352657004831
+   },
+   "interpolation_rate": 0.188907422852377
+  },
+  "1b67852b_t006": {
+   "status_counts": {
+    "reported": 1157,
+    "merged": 195,
+    "rejected": 159,
+    "interpolated": 81
+   },
+   "proxy_precision_recall": {
+    "raw": {
+     "n_survivors": 1895,
+     "precision_proxy": 0.987335092348285,
+     "recall_proxy": 1.0
+    },
+    "geometric": {
+     "n_survivors": 1608,
+     "precision_proxy": 0.9875621890547264,
+     "recall_proxy": 0.848743987172635
+    },
+    "temporal": {
+     "n_survivors": 1573,
+     "precision_proxy": 0.993006993006993,
+     "recall_proxy": 0.8348476750400855
+    },
+    "cap": {
+     "n_survivors": 1573,
+     "precision_proxy": 0.993006993006993,
+     "recall_proxy": 0.8348476750400855
+    }
+   },
+   "frame_coverage_recall": {
+    "n_stable_track_frames": 1487,
+    "recall_without_interpolation": 0.902488231338265,
+    "recall_with_interpolation": 0.933422999327505,
+    "recall_gain_from_interpolation": 0.03093476798924008
+   },
+   "multibox_resolution": {
+    "n_multibox_frames": 80,
+    "frac_resolved_to_cap": 1.0
+   },
+   "interpolation_rate": 0.05087939698492462
+  },
+  "1d87e32f_t010": {
+   "status_counts": {
+    "reported": 3379,
+    "merged": 68,
+    "interpolated": 227,
+    "rejected": 3
+   },
+   "proxy_precision_recall": {
+    "raw": {
+     "n_survivors": 3526,
+     "precision_proxy": 1.0,
+     "recall_proxy": 1.0
+    },
+    "geometric": {
+     "n_survivors": 3526,
+     "precision_proxy": 1.0,
+     "recall_proxy": 1.0
+    },
+    "temporal": {
+     "n_survivors": 3524,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.9994327850255247
+    },
+    "cap": {
+     "n_survivors": 3523,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.999149177538287
+    }
+   },
+   "frame_coverage_recall": {
+    "n_stable_track_frames": 3450,
+    "recall_without_interpolation": 0.9994202898550725,
+    "recall_with_interpolation": 0.9994202898550725,
+    "recall_gain_from_interpolation": 0.0
+   },
+   "multibox_resolution": {
+    "n_multibox_frames": 48,
+    "frac_resolved_to_cap": 1.0
+   },
+   "interpolation_rate": 0.061735110144139245
+  },
+  "1e337713_t036": {
+   "status_counts": {
+    "reported": 5240,
+    "rejected": 174,
+    "interpolated": 145,
+    "merged": 20
+   },
+   "proxy_precision_recall": {
+    "raw": {
+     "n_survivors": 5462,
+     "precision_proxy": 1.0,
+     "recall_proxy": 1.0
+    },
+    "geometric": {
+     "n_survivors": 5450,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.9978030025631637
+    },
+    "temporal": {
+     "n_survivors": 5283,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.9672281215671915
+    },
+    "cap": {
+     "n_survivors": 5283,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.9672281215671915
+    }
+   },
+   "frame_coverage_recall": {
+    "n_stable_track_frames": 5434,
+    "recall_without_interpolation": 0.97165991902834,
+    "recall_with_interpolation": 0.9922708870077291,
+    "recall_gain_from_interpolation": 0.020610967979389033
+   },
+   "multibox_resolution": {
+    "n_multibox_frames": 18,
+    "frac_resolved_to_cap": 1.0
+   },
+   "interpolation_rate": 0.025990320846029754
+  },
+  "24afdf2d_t029": {
+   "status_counts": {
+    "reported": 4564,
+    "merged": 218,
+    "rejected": 127,
+    "interpolated": 86
+   },
+   "proxy_precision_recall": {
+    "raw": {
+     "n_survivors": 5161,
+     "precision_proxy": 0.9978686301104437,
+     "recall_proxy": 1.0
+    },
+    "geometric": {
+     "n_survivors": 5084,
+     "precision_proxy": 0.9978363493312352,
+     "recall_proxy": 0.9850485436893204
+    },
+    "temporal": {
+     "n_survivors": 5032,
+     "precision_proxy": 0.9984101748807631,
+     "recall_proxy": 0.9755339805825243
+    },
+    "cap": {
+     "n_survivors": 5023,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.9753398058252427
+    }
+   },
+   "frame_coverage_recall": {
+    "n_stable_track_frames": 4898,
+    "recall_without_interpolation": 0.9795835034708044,
+    "recall_with_interpolation": 0.9867292772560229,
+    "recall_gain_from_interpolation": 0.0071457737852184565
+   },
+   "multibox_resolution": {
+    "n_multibox_frames": 180,
+    "frac_resolved_to_cap": 1.0
+   },
+   "interpolation_rate": 0.017217217217217216
+  },
+  "3592c890_t007": {
+   "status_counts": {
+    "reported": 4169,
+    "interpolated": 97,
+    "merged": 26,
+    "rejected": 101
+   },
+   "proxy_precision_recall": {
+    "raw": {
+     "n_survivors": 4327,
+     "precision_proxy": 1.0,
+     "recall_proxy": 1.0
+    },
+    "geometric": {
+     "n_survivors": 4322,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.9988444649872891
+    },
+    "temporal": {
+     "n_survivors": 4226,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.9766581927432402
+    },
+    "cap": {
+     "n_survivors": 4226,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.9766581927432402
+    }
+   },
+   "frame_coverage_recall": {
+    "n_stable_track_frames": 4296,
+    "recall_without_interpolation": 0.9848696461824954,
+    "recall_with_interpolation": 0.9986033519553073,
+    "recall_gain_from_interpolation": 0.013733705772811917
+   },
+   "multibox_resolution": {
+    "n_multibox_frames": 26,
+    "frac_resolved_to_cap": 1.0
+   },
+   "interpolation_rate": 0.022080582745276578
+  },
+  "407258cd_t036": {
+   "status_counts": {
+    "reported": 4698,
+    "merged": 112,
+    "interpolated": 176,
+    "rejected": 252
+   },
+   "proxy_precision_recall": {
+    "raw": {
+     "n_survivors": 5194,
+     "precision_proxy": 0.9996149403157489,
+     "recall_proxy": 1.0
+    },
+    "geometric": {
+     "n_survivors": 5182,
+     "precision_proxy": 0.9996140486298727,
+     "recall_proxy": 0.99768875192604
+    },
+    "temporal": {
+     "n_survivors": 4994,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.961864406779661
+    },
+    "cap": {
+     "n_survivors": 4939,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.951271186440678
+    }
+   },
+   "frame_coverage_recall": {
+    "n_stable_track_frames": 5060,
+    "recall_without_interpolation": 0.9598814229249012,
+    "recall_with_interpolation": 0.9756916996047431,
+    "recall_gain_from_interpolation": 0.015810276679841896
+   },
+   "multibox_resolution": {
+    "n_multibox_frames": 120,
+    "frac_resolved_to_cap": 0.95
+   },
+   "interpolation_rate": 0.03360061092019855
+  },
+  "42bba884_t012": {
+   "status_counts": {
+    "reported": 3925,
+    "merged": 91,
+    "rejected": 124,
+    "interpolated": 135
+   },
+   "proxy_precision_recall": {
+    "raw": {
+     "n_survivors": 4257,
+     "precision_proxy": 0.9945971341320179,
+     "recall_proxy": 1.0
+    },
+    "geometric": {
+     "n_survivors": 4194,
+     "precision_proxy": 0.9945159752026704,
+     "recall_proxy": 0.9851204534718941
+    },
+    "temporal": {
+     "n_survivors": 4136,
+     "precision_proxy": 0.9944390715667312,
+     "recall_proxy": 0.9714218233349079
+    },
+    "cap": {
+     "n_survivors": 4113,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.9714218233349079
+    }
+   },
+   "frame_coverage_recall": {
+    "n_stable_track_frames": 4119,
+    "recall_without_interpolation": 0.9800922554017966,
+    "recall_with_interpolation": 0.9915027919397912,
+    "recall_gain_from_interpolation": 0.011410536537994658
+   },
+   "multibox_resolution": {
+    "n_multibox_frames": 106,
+    "frac_resolved_to_cap": 1.0
+   },
+   "interpolation_rate": 0.031578947368421054
+  },
+  "47f74932_t002": {
+   "status_counts": {
+    "reported": 5183,
+    "merged": 47,
+    "rejected": 73,
+    "interpolated": 66
+   },
+   "proxy_precision_recall": {
+    "raw": {
+     "n_survivors": 5360,
+     "precision_proxy": 1.0,
+     "recall_proxy": 1.0
+    },
+    "geometric": {
+     "n_survivors": 5348,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.9977611940298508
+    },
+    "temporal": {
+     "n_survivors": 5285,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.9860074626865671
+    },
+    "cap": {
+     "n_survivors": 5285,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.9860074626865671
+    }
+   },
+   "frame_coverage_recall": {
+    "n_stable_track_frames": 5303,
+    "recall_without_interpolation": 0.9913256647180841,
+    "recall_with_interpolation": 0.9979257024325854,
+    "recall_gain_from_interpolation": 0.006600037714501226
+   },
+   "multibox_resolution": {
+    "n_multibox_frames": 43,
+    "frac_resolved_to_cap": 1.0
+   },
+   "interpolation_rate": 0.012292791953808902
+  },
+  "48bf4f5f_t005": {
+   "status_counts": {
+    "reported": 4461,
+    "merged": 53,
+    "rejected": 47,
+    "interpolated": 46
+   },
+   "proxy_precision_recall": {
+    "raw": {
+     "n_survivors": 4624,
+     "precision_proxy": 0.9997837370242214,
+     "recall_proxy": 1.0
+    },
+    "geometric": {
+     "n_survivors": 4624,
+     "precision_proxy": 0.9997837370242214,
+     "recall_proxy": 1.0
+    },
+    "temporal": {
+     "n_survivors": 4584,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.9915639195327709
+    },
+    "cap": {
+     "n_survivors": 4577,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.9900497512437811
+    }
+   },
+   "frame_coverage_recall": {
+    "n_stable_track_frames": 4560,
+    "recall_without_interpolation": 0.9967105263157895,
+    "recall_with_interpolation": 0.9984649122807018,
+    "recall_gain_from_interpolation": 0.0017543859649122807
+   },
+   "multibox_resolution": {
+    "n_multibox_frames": 65,
+    "frac_resolved_to_cap": 1.0
+   },
+   "interpolation_rate": 0.009984805730410246
+  },
+  "557419bb_t030": {
+   "status_counts": {
+    "reported": 4306,
+    "rejected": 167,
+    "merged": 137,
+    "interpolated": 99
+   },
+   "proxy_precision_recall": {
+    "raw": {
+     "n_survivors": 4833,
+     "precision_proxy": 1.0,
+     "recall_proxy": 1.0
+    },
+    "geometric": {
+     "n_survivors": 4597,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.9511690461411132
+    },
+    "temporal": {
+     "n_survivors": 4590,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.9497206703910615
+    },
+    "cap": {
+     "n_survivors": 4590,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.9497206703910615
+    }
+   },
+   "frame_coverage_recall": {
+    "n_stable_track_frames": 4610,
+    "recall_without_interpolation": 0.9639913232104121,
+    "recall_with_interpolation": 0.96941431670282,
+    "recall_gain_from_interpolation": 0.005422993492407809
+   },
+   "multibox_resolution": {
+    "n_multibox_frames": 106,
+    "frac_resolved_to_cap": 1.0
+   },
+   "interpolation_rate": 0.021023571883627096
+  },
+  "6cd0b236_t000": {
+   "status_counts": {
+    "rejected": 889,
+    "reported": 4348,
+    "interpolated": 124,
+    "merged": 1
+   },
+   "proxy_precision_recall": {
+    "raw": {
+     "n_survivors": 5239,
+     "precision_proxy": 1.0,
+     "recall_proxy": 1.0
+    },
+    "geometric": {
+     "n_survivors": 5239,
+     "precision_proxy": 1.0,
+     "recall_proxy": 1.0
+    },
+    "temporal": {
+     "n_survivors": 4350,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.8303111280778774
+    },
+    "cap": {
+     "n_survivors": 4350,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.8303111280778774
+    }
+   },
+   "frame_coverage_recall": {
+    "n_stable_track_frames": 5238,
+    "recall_without_interpolation": 0.9085528827796869,
+    "recall_with_interpolation": 0.9348988163421154,
+    "recall_gain_from_interpolation": 0.026345933562428408
+   },
+   "multibox_resolution": {
+    "n_multibox_frames": 1,
+    "frac_resolved_to_cap": 1.0
+   },
+   "interpolation_rate": 0.023125699365908244
+  },
+  "7641c2af_t014": {
+   "status_counts": {
+    "rejected": 289,
+    "reported": 2002,
+    "merged": 59,
+    "interpolated": 184
+   },
+   "proxy_precision_recall": {
+    "raw": {
+     "n_survivors": 2428,
+     "precision_proxy": 0.9995881383855024,
+     "recall_proxy": 1.0
+    },
+    "geometric": {
+     "n_survivors": 2318,
+     "precision_proxy": 0.9995685936151855,
+     "recall_proxy": 0.9546765554182118
+    },
+    "temporal": {
+     "n_survivors": 2125,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.8755665430572723
+    },
+    "cap": {
+     "n_survivors": 2125,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.8755665430572723
+    }
+   },
+   "frame_coverage_recall": {
+    "n_stable_track_frames": 2349,
+    "recall_without_interpolation": 0.8773946360153256,
+    "recall_with_interpolation": 0.9212430821626224,
+    "recall_gain_from_interpolation": 0.04384844614729672
+   },
+   "multibox_resolution": {
+    "n_multibox_frames": 41,
+    "frac_resolved_to_cap": 1.0
+   },
+   "interpolation_rate": 0.07261247040252565
+  },
+  "7d9a0f24_t015": {
+   "status_counts": {
+    "reported": 5404,
+    "merged": 76,
+    "interpolated": 116,
+    "rejected": 123
+   },
+   "proxy_precision_recall": {
+    "raw": {
+     "n_survivors": 5701,
+     "precision_proxy": 1.0,
+     "recall_proxy": 1.0
+    },
+    "geometric": {
+     "n_survivors": 5683,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.9968426591825995
+    },
+    "temporal": {
+     "n_survivors": 5666,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.993860726188388
+    },
+    "cap": {
+     "n_survivors": 5569,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.9768461673390634
+    }
+   },
+   "frame_coverage_recall": {
+    "n_stable_track_frames": 5603,
+    "recall_without_interpolation": 0.9905407817240763,
+    "recall_with_interpolation": 0.9925040157058719,
+    "recall_gain_from_interpolation": 0.0019632339817954665
+   },
+   "multibox_resolution": {
+    "n_multibox_frames": 176,
+    "frac_resolved_to_cap": 0.9431818181818182
+   },
+   "interpolation_rate": 0.020283266305298128
+  },
+  "7fe10737_t009": {
+   "status_counts": {
+    "rejected": 123,
+    "merged": 83,
+    "reported": 2143,
+    "interpolated": 136
+   },
+   "proxy_precision_recall": {
+    "raw": {
+     "n_survivors": 2465,
+     "precision_proxy": 1.0,
+     "recall_proxy": 1.0
+    },
+    "geometric": {
+     "n_survivors": 2426,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.9841784989858012
+    },
+    "temporal": {
+     "n_survivors": 2317,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.9399594320486815
+    },
+    "cap": {
+     "n_survivors": 2317,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.9399594320486815
+    }
+   },
+   "frame_coverage_recall": {
+    "n_stable_track_frames": 2349,
+    "recall_without_interpolation": 0.9489144316730523,
+    "recall_with_interpolation": 0.9676458067262665,
+    "recall_gain_from_interpolation": 0.018731375053214133
+   },
+   "multibox_resolution": {
+    "n_multibox_frames": 48,
+    "frac_resolved_to_cap": 1.0
+   },
+   "interpolation_rate": 0.05472837022132797
+  },
+  "887c633e_t028": {
+   "status_counts": {
+    "reported": 1758,
+    "rejected": 222,
+    "interpolated": 63,
+    "merged": 4
+   },
+   "proxy_precision_recall": {
+    "raw": {
+     "n_survivors": 1991,
+     "precision_proxy": 1.0,
+     "recall_proxy": 1.0
+    },
+    "geometric": {
+     "n_survivors": 1991,
+     "precision_proxy": 1.0,
+     "recall_proxy": 1.0
+    },
+    "temporal": {
+     "n_survivors": 1947,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.9779005524861878
+    },
+    "cap": {
+     "n_survivors": 1766,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.886991461577097
+    }
+   },
+   "frame_coverage_recall": {
+    "n_stable_track_frames": 1984,
+    "recall_without_interpolation": 0.9002016129032258,
+    "recall_with_interpolation": 0.9143145161290323,
+    "recall_gain_from_interpolation": 0.014112903225806451
+   },
+   "multibox_resolution": {
+    "n_multibox_frames": 186,
+    "frac_resolved_to_cap": 0.9086021505376344
+   },
+   "interpolation_rate": 0.030776746458231558
+  },
+  "9f6fc515_t000": {
+   "status_counts": {
+    "reported": 890,
+    "merged": 614,
+    "interpolated": 413,
+    "rejected": 182
+   },
+   "proxy_precision_recall": {
+    "raw": {
+     "n_survivors": 2486,
+     "precision_proxy": 0.99597747385358,
+     "recall_proxy": 1.0
+    },
+    "geometric": {
+     "n_survivors": 2468,
+     "precision_proxy": 0.997163695299838,
+     "recall_proxy": 0.9939418416801292
+    },
+    "temporal": {
+     "n_survivors": 2179,
+     "precision_proxy": 0.9967875172097292,
+     "recall_proxy": 0.877221324717286
+    },
+    "cap": {
+     "n_survivors": 2173,
+     "precision_proxy": 0.9995398067188219,
+     "recall_proxy": 0.877221324717286
+    }
+   },
+   "frame_coverage_recall": {
+    "n_stable_track_frames": 1677,
+    "recall_without_interpolation": 0.9069767441860465,
+    "recall_with_interpolation": 0.9355992844364938,
+    "recall_gain_from_interpolation": 0.028622540250447227
+   },
+   "multibox_resolution": {
+    "n_multibox_frames": 68,
+    "frac_resolved_to_cap": 1.0
+   },
+   "interpolation_rate": 0.19676036207717962
+  },
+  "a3569273_t014": {
+   "status_counts": {
+    "reported": 4444,
+    "merged": 105,
+    "interpolated": 142,
+    "rejected": 236
+   },
+   "proxy_precision_recall": {
+    "raw": {
+     "n_survivors": 4913,
+     "precision_proxy": 0.9965397923875432,
+     "recall_proxy": 1.0
+    },
+    "geometric": {
+     "n_survivors": 4848,
+     "precision_proxy": 0.996493399339934,
+     "recall_proxy": 0.9867238562091504
+    },
+    "temporal": {
+     "n_survivors": 4828,
+     "precision_proxy": 0.9971002485501242,
+     "recall_proxy": 0.983251633986928
+    },
+    "cap": {
+     "n_survivors": 4665,
+     "precision_proxy": 0.99978563772776,
+     "recall_proxy": 0.9526143790849673
+    }
+   },
+   "frame_coverage_recall": {
+    "n_stable_track_frames": 4768,
+    "recall_without_interpolation": 0.9779781879194631,
+    "recall_with_interpolation": 0.985738255033557,
+    "recall_gain_from_interpolation": 0.00776006711409396
+   },
+   "multibox_resolution": {
+    "n_multibox_frames": 238,
+    "frac_resolved_to_cap": 0.8991596638655462
+   },
+   "interpolation_rate": 0.028820783438197686
+  },
+  "a59a9449_t004": {
+   "status_counts": {
+    "rejected": 637,
+    "reported": 4032,
+    "interpolated": 98,
+    "merged": 194
+   },
+   "proxy_precision_recall": {
+    "raw": {
+     "n_survivors": 5119,
+     "precision_proxy": 0.9990232467278766,
+     "recall_proxy": 1.0
+    },
+    "geometric": {
+     "n_survivors": 5119,
+     "precision_proxy": 0.9990232467278766,
+     "recall_proxy": 1.0
+    },
+    "temporal": {
+     "n_survivors": 4476,
+     "precision_proxy": 0.9988829311885612,
+     "recall_proxy": 0.8742667188111067
+    },
+    "cap": {
+     "n_survivors": 4471,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.8742667188111067
+    }
+   },
+   "frame_coverage_recall": {
+    "n_stable_track_frames": 4858,
+    "recall_without_interpolation": 0.883902840675175,
+    "recall_with_interpolation": 0.8948126801152738,
+    "recall_gain_from_interpolation": 0.010909839440098806
+   },
+   "multibox_resolution": {
+    "n_multibox_frames": 191,
+    "frac_resolved_to_cap": 1.0
+   },
+   "interpolation_rate": 0.019754081838339044
+  },
+  "ae580129_t057": {
+   "status_counts": {
+    "reported": 3529,
+    "rejected": 188,
+    "merged": 68,
+    "interpolated": 408
+   },
+   "proxy_precision_recall": {
+    "raw": {
+     "n_survivors": 3904,
+     "precision_proxy": 0.9997438524590164,
+     "recall_proxy": 1.0
+    },
+    "geometric": {
+     "n_survivors": 3892,
+     "precision_proxy": 0.999743062692703,
+     "recall_proxy": 0.9969254419677172
+    },
+    "temporal": {
+     "n_survivors": 3714,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.9515757109915449
+    },
+    "cap": {
+     "n_survivors": 3713,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.951319497822188
+    }
+   },
+   "frame_coverage_recall": {
+    "n_stable_track_frames": 3784,
+    "recall_without_interpolation": 0.959830866807611,
+    "recall_with_interpolation": 0.9907505285412262,
+    "recall_gain_from_interpolation": 0.03091966173361522
+   },
+   "multibox_resolution": {
+    "n_multibox_frames": 52,
+    "frac_resolved_to_cap": 0.9230769230769231
+   },
+   "interpolation_rate": 0.09730503219651801
+  },
+  "b2a761e6_t031": {
+   "status_counts": {
+    "rejected": 288,
+    "reported": 5156,
+    "merged": 68,
+    "interpolated": 87
+   },
+   "proxy_precision_recall": {
+    "raw": {
+     "n_survivors": 5638,
+     "precision_proxy": 1.0,
+     "recall_proxy": 1.0
+    },
+    "geometric": {
+     "n_survivors": 5589,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.9913089748137638
+    },
+    "temporal": {
+     "n_survivors": 5328,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.9450159631074849
+    },
+    "cap": {
+     "n_survivors": 5328,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.9450159631074849
+    }
+   },
+   "frame_coverage_recall": {
+    "n_stable_track_frames": 5512,
+    "recall_without_interpolation": 0.9611756168359942,
+    "recall_with_interpolation": 0.9687953555878084,
+    "recall_gain_from_interpolation": 0.007619738751814224
+   },
+   "multibox_resolution": {
+    "n_multibox_frames": 61,
+    "frac_resolved_to_cap": 1.0
+   },
+   "interpolation_rate": 0.015538489015895695
+  },
+  "b8272207_t051": {
+   "status_counts": {
+    "reported": 1275,
+    "merged": 124,
+    "interpolated": 182,
+    "rejected": 123
+   },
+   "proxy_precision_recall": {
+    "raw": {
+     "n_survivors": 1683,
+     "precision_proxy": 0.9982174688057041,
+     "recall_proxy": 1.0
+    },
+    "geometric": {
+     "n_survivors": 1556,
+     "precision_proxy": 0.9980719794344473,
+     "recall_proxy": 0.924404761904762
+    },
+    "temporal": {
+     "n_survivors": 1551,
+     "precision_proxy": 0.9980657640232108,
+     "recall_proxy": 0.9214285714285714
+    },
+    "cap": {
+     "n_survivors": 1550,
+     "precision_proxy": 0.9987096774193548,
+     "recall_proxy": 0.9214285714285714
+    }
+   },
+   "frame_coverage_recall": {
+    "n_stable_track_frames": 1519,
+    "recall_without_interpolation": 0.9196840026333114,
+    "recall_with_interpolation": 0.9335088874259381,
+    "recall_gain_from_interpolation": 0.013824884792626729
+   },
+   "multibox_resolution": {
+    "n_multibox_frames": 95,
+    "frac_resolved_to_cap": 0.9368421052631579
+   },
+   "interpolation_rate": 0.1068075117370892
+  },
+  "beb348be_t000": {
+   "status_counts": {
+    "reported": 911,
+    "merged": 15,
+    "rejected": 10,
+    "interpolated": 238
+   },
+   "proxy_precision_recall": {
+    "raw": {
+     "n_survivors": 951,
+     "precision_proxy": 1.0,
+     "recall_proxy": 1.0
+    },
+    "geometric": {
+     "n_survivors": 949,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.9978969505783386
+    },
+    "temporal": {
+     "n_survivors": 941,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.9894847528916929
+    },
+    "cap": {
+     "n_survivors": 941,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.9894847528916929
+    }
+   },
+   "frame_coverage_recall": {
+    "n_stable_track_frames": 936,
+    "recall_without_interpolation": 0.9914529914529915,
+    "recall_with_interpolation": 0.9946581196581197,
+    "recall_gain_from_interpolation": 0.003205128205128205
+   },
+   "multibox_resolution": {
+    "n_multibox_frames": 0
+   },
+   "interpolation_rate": 0.20272572402044292
+  },
+  "c2920c2d_t009": {
+   "status_counts": {
+    "reported": 1414,
+    "merged": 61,
+    "rejected": 43,
+    "interpolated": 324
+   },
+   "proxy_precision_recall": {
+    "raw": {
+     "n_survivors": 1590,
+     "precision_proxy": 1.0,
+     "recall_proxy": 1.0
+    },
+    "geometric": {
+     "n_survivors": 1565,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.9842767295597484
+    },
+    "temporal": {
+     "n_survivors": 1557,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.9792452830188679
+    },
+    "cap": {
+     "n_survivors": 1542,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.969811320754717
+    }
+   },
+   "frame_coverage_recall": {
+    "n_stable_track_frames": 1518,
+    "recall_without_interpolation": 0.9729907773386034,
+    "recall_with_interpolation": 0.9769433465085638,
+    "recall_gain_from_interpolation": 0.003952569169960474
+   },
+   "multibox_resolution": {
+    "n_multibox_frames": 63,
+    "frac_resolved_to_cap": 0.9206349206349206
+   },
+   "interpolation_rate": 0.1758957654723127
+  },
+  "c440b068_t014": {
+   "status_counts": {
+    "reported": 1963,
+    "interpolated": 41,
+    "merged": 16
+   },
+   "proxy_precision_recall": {
+    "raw": {
+     "n_survivors": 1998,
+     "precision_proxy": 1.0,
+     "recall_proxy": 1.0
+    },
+    "geometric": {
+     "n_survivors": 1998,
+     "precision_proxy": 1.0,
+     "recall_proxy": 1.0
+    },
+    "temporal": {
+     "n_survivors": 1998,
+     "precision_proxy": 1.0,
+     "recall_proxy": 1.0
+    },
+    "cap": {
+     "n_survivors": 1998,
+     "precision_proxy": 1.0,
+     "recall_proxy": 1.0
+    }
+   },
+   "frame_coverage_recall": {
+    "n_stable_track_frames": 1979,
+    "recall_without_interpolation": 1.0,
+    "recall_with_interpolation": 1.0,
+    "recall_gain_from_interpolation": 0.0
+   },
+   "multibox_resolution": {
+    "n_multibox_frames": 16,
+    "frac_resolved_to_cap": 0.875
+   },
+   "interpolation_rate": 0.020297029702970298
+  },
+  "c6754e88_t019": {
+   "status_counts": {
+    "rejected": 144,
+    "reported": 1867,
+    "interpolated": 460,
+    "merged": 456
+   },
+   "proxy_precision_recall": {
+    "raw": {
+     "n_survivors": 3061,
+     "precision_proxy": 0.9990199281280627,
+     "recall_proxy": 1.0
+    },
+    "geometric": {
+     "n_survivors": 2965,
+     "precision_proxy": 0.9989881956155143,
+     "recall_proxy": 0.9686069326357096
+    },
+    "temporal": {
+     "n_survivors": 2897,
+     "precision_proxy": 0.9989644459785986,
+     "recall_proxy": 0.946370176586004
+    },
+    "cap": {
+     "n_survivors": 2890,
+     "precision_proxy": 0.998961937716263,
+     "recall_proxy": 0.9440810987573578
+    }
+   },
+   "frame_coverage_recall": {
+    "n_stable_track_frames": 2464,
+    "recall_without_interpolation": 0.9439935064935064,
+    "recall_with_interpolation": 0.966314935064935,
+    "recall_gain_from_interpolation": 0.022321428571428572
+   },
+   "multibox_resolution": {
+    "n_multibox_frames": 288,
+    "frac_resolved_to_cap": 0.9861111111111112
+   },
+   "interpolation_rate": 0.15715749914588314
+  },
+  "cb8a6019_t003": {
+   "status_counts": {
+    "reported": 1595,
+    "interpolated": 151,
+    "merged": 101,
+    "rejected": 30
+   },
+   "proxy_precision_recall": {
+    "raw": {
+     "n_survivors": 1858,
+     "precision_proxy": 1.0,
+     "recall_proxy": 1.0
+    },
+    "geometric": {
+     "n_survivors": 1857,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.9994617868675996
+    },
+    "temporal": {
+     "n_survivors": 1852,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.9967707212055974
+    },
+    "cap": {
+     "n_survivors": 1827,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.9833153928955867
+    }
+   },
+   "frame_coverage_recall": {
+    "n_stable_track_frames": 1726,
+    "recall_without_interpolation": 0.9843568945538818,
+    "recall_with_interpolation": 0.9866743916570104,
+    "recall_gain_from_interpolation": 0.002317497103128621
+   },
+   "multibox_resolution": {
+    "n_multibox_frames": 89,
+    "frac_resolved_to_cap": 0.9213483146067416
+   },
+   "interpolation_rate": 0.08044752264251465
+  },
+  "cd8d7687_t011": {
+   "status_counts": {
+    "reported": 3600,
+    "rejected": 39,
+    "merged": 53,
+    "interpolated": 62
+   },
+   "proxy_precision_recall": {
+    "raw": {
+     "n_survivors": 3747,
+     "precision_proxy": 0.9949292767547371,
+     "recall_proxy": 1.0
+    },
+    "geometric": {
+     "n_survivors": 3745,
+     "precision_proxy": 0.9949265687583445,
+     "recall_proxy": 0.9994635193133047
+    },
+    "temporal": {
+     "n_survivors": 3725,
+     "precision_proxy": 0.9951677852348993,
+     "recall_proxy": 0.9943669527896996
+    },
+    "cap": {
+     "n_survivors": 3706,
+     "precision_proxy": 0.9997301672962763,
+     "recall_proxy": 0.9938304721030042
+    }
+   },
+   "frame_coverage_recall": {
+    "n_stable_track_frames": 3673,
+    "recall_without_interpolation": 0.9942826027770215,
+    "recall_with_interpolation": 0.9997277429893819,
+    "recall_gain_from_interpolation": 0.005445140212360468
+   },
+   "multibox_resolution": {
+    "n_multibox_frames": 73,
+    "frac_resolved_to_cap": 0.9863013698630136
+   },
+   "interpolation_rate": 0.016515716568993075
+  },
+  "ce045be4_t019": {
+   "status_counts": {
+    "reported": 4071,
+    "merged": 448,
+    "rejected": 290,
+    "interpolated": 390
+   },
+   "proxy_precision_recall": {
+    "raw": {
+     "n_survivors": 5345,
+     "precision_proxy": 0.9996258185219832,
+     "recall_proxy": 1.0
+    },
+    "geometric": {
+     "n_survivors": 5304,
+     "precision_proxy": 0.9996229260935143,
+     "recall_proxy": 0.9923264083848026
+    },
+    "temporal": {
+     "n_survivors": 5038,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.942915964813775
+    },
+    "cap": {
+     "n_survivors": 5026,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.9406700355605465
+    }
+   },
+   "frame_coverage_recall": {
+    "n_stable_track_frames": 4807,
+    "recall_without_interpolation": 0.9436238818389848,
+    "recall_with_interpolation": 0.9698356563345122,
+    "recall_gain_from_interpolation": 0.026211774495527355
+   },
+   "multibox_resolution": {
+    "n_multibox_frames": 441,
+    "frac_resolved_to_cap": 0.9750566893424036
+   },
+   "interpolation_rate": 0.07501442585112522
+  },
+  "d6dfe4bf_t023": {
+   "status_counts": {
+    "reported": 4743,
+    "rejected": 524,
+    "interpolated": 155,
+    "merged": 108
+   },
+   "proxy_precision_recall": {
+    "raw": {
+     "n_survivors": 5536,
+     "precision_proxy": 1.0,
+     "recall_proxy": 1.0
+    },
+    "geometric": {
+     "n_survivors": 5462,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.9866329479768786
+    },
+    "temporal": {
+     "n_survivors": 5201,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.9394869942196532
+    },
+    "cap": {
+     "n_survivors": 4987,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.9008309248554913
+    }
+   },
+   "frame_coverage_recall": {
+    "n_stable_track_frames": 5375,
+    "recall_without_interpolation": 0.943813953488372,
+    "recall_with_interpolation": 0.9566511627906977,
+    "recall_gain_from_interpolation": 0.012837209302325582
+   },
+   "multibox_resolution": {
+    "n_multibox_frames": 288,
+    "frac_resolved_to_cap": 0.96875
+   },
+   "interpolation_rate": 0.02802893309222423
+  },
+  "db6471bb_t004": {
+   "status_counts": {
+    "reported": 5058,
+    "merged": 131,
+    "rejected": 49,
+    "interpolated": 86
+   },
+   "proxy_precision_recall": {
+    "raw": {
+     "n_survivors": 5411,
+     "precision_proxy": 1.0,
+     "recall_proxy": 1.0
+    },
+    "geometric": {
+     "n_survivors": 5383,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.9948253557567918
+    },
+    "temporal": {
+     "n_survivors": 5358,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.9902051376824986
+    },
+    "cap": {
+     "n_survivors": 5357,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.9900203289595269
+    }
+   },
+   "frame_coverage_recall": {
+    "n_stable_track_frames": 5238,
+    "recall_without_interpolation": 0.9921725849560901,
+    "recall_with_interpolation": 0.9952271859488354,
+    "recall_gain_from_interpolation": 0.0030546009927453228
+   },
+   "multibox_resolution": {
+    "n_multibox_frames": 131,
+    "frac_resolved_to_cap": 0.9465648854961832
+   },
+   "interpolation_rate": 0.016153268219383923
+  },
+  "e459c013_t033": {
+   "status_counts": {
+    "reported": 2426,
+    "merged": 203,
+    "interpolated": 144,
+    "rejected": 24
+   },
+   "proxy_precision_recall": {
+    "raw": {
+     "n_survivors": 2898,
+     "precision_proxy": 0.9982746721877157,
+     "recall_proxy": 1.0
+    },
+    "geometric": {
+     "n_survivors": 2881,
+     "precision_proxy": 0.9982644914960084,
+     "recall_proxy": 0.994123746975458
+    },
+    "temporal": {
+     "n_survivors": 2872,
+     "precision_proxy": 0.9982590529247911,
+     "recall_proxy": 0.991012789491877
+    },
+    "cap": {
+     "n_survivors": 2867,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.991012789491877
+    }
+   },
+   "frame_coverage_recall": {
+    "n_stable_track_frames": 2648,
+    "recall_without_interpolation": 0.993202416918429,
+    "recall_with_interpolation": 0.9969788519637462,
+    "recall_gain_from_interpolation": 0.0037764350453172208
+   },
+   "multibox_resolution": {
+    "n_multibox_frames": 178,
+    "frac_resolved_to_cap": 1.0
+   },
+   "interpolation_rate": 0.05148373257061137
+  },
+  "eba8442d_t005": {
+   "status_counts": {
+    "reported": 4307,
+    "interpolated": 5,
+    "rejected": 36,
+    "merged": 42
+   },
+   "proxy_precision_recall": {
+    "raw": {
+     "n_survivors": 4429,
+     "precision_proxy": 0.9918717543463536,
+     "recall_proxy": 1.0
+    },
+    "geometric": {
+     "n_survivors": 4429,
+     "precision_proxy": 0.9918717543463536,
+     "recall_proxy": 1.0
+    },
+    "temporal": {
+     "n_survivors": 4419,
+     "precision_proxy": 0.9938900203665988,
+     "recall_proxy": 0.9997723651263374
+    },
+    "cap": {
+     "n_survivors": 4393,
+     "precision_proxy": 0.9997723651263374,
+     "recall_proxy": 0.9997723651263374
+    }
+   },
+   "frame_coverage_recall": {
+    "n_stable_track_frames": 4349,
+    "recall_without_interpolation": 1.0,
+    "recall_with_interpolation": 1.0,
+    "recall_gain_from_interpolation": 0.0
+   },
+   "multibox_resolution": {
+    "n_multibox_frames": 76,
+    "frac_resolved_to_cap": 1.0
+   },
+   "interpolation_rate": 0.0011389521640091116
+  },
+  "f2914cca_t014": {
+   "status_counts": {
+    "rejected": 419,
+    "reported": 3922,
+    "interpolated": 241,
+    "merged": 83
+   },
+   "proxy_precision_recall": {
+    "raw": {
+     "n_survivors": 4560,
+     "precision_proxy": 1.0,
+     "recall_proxy": 1.0
+    },
+    "geometric": {
+     "n_survivors": 4558,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.999561403508772
+    },
+    "temporal": {
+     "n_survivors": 4141,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.9081140350877193
+    },
+    "cap": {
+     "n_survivors": 4141,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.9081140350877193
+    }
+   },
+   "frame_coverage_recall": {
+    "n_stable_track_frames": 4424,
+    "recall_without_interpolation": 0.9387432188065099,
+    "recall_with_interpolation": 0.9622513562386981,
+    "recall_gain_from_interpolation": 0.023508137432188065
+   },
+   "multibox_resolution": {
+    "n_multibox_frames": 55,
+    "frac_resolved_to_cap": 1.0
+   },
+   "interpolation_rate": 0.051661307609860666
+  },
+  "f9afe024_t004": {
+   "status_counts": {
+    "reported": 4837,
+    "merged": 175,
+    "rejected": 75,
+    "interpolated": 141
+   },
+   "proxy_precision_recall": {
+    "raw": {
+     "n_survivors": 5285,
+     "precision_proxy": 0.9998107852412488,
+     "recall_proxy": 1.0
+    },
+    "geometric": {
+     "n_survivors": 5229,
+     "precision_proxy": 0.9998087588449034,
+     "recall_proxy": 0.9894019682059046
+    },
+    "temporal": {
+     "n_survivors": 5201,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.9842922028766087
+    },
+    "cap": {
+     "n_survivors": 5200,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.9841029523088569
+    }
+   },
+   "frame_coverage_recall": {
+    "n_stable_track_frames": 5086,
+    "recall_without_interpolation": 0.9870232009437672,
+    "recall_with_interpolation": 0.9921352732992529,
+    "recall_gain_from_interpolation": 0.005112072355485647
+   },
+   "multibox_resolution": {
+    "n_multibox_frames": 183,
+    "frac_resolved_to_cap": 1.0
+   },
+   "interpolation_rate": 0.02697016067329763
+  },
+  "fcaf46ee_t001": {
+   "status_counts": {
+    "reported": 1828,
+    "rejected": 752,
+    "interpolated": 70,
+    "merged": 23
+   },
+   "proxy_precision_recall": {
+    "raw": {
+     "n_survivors": 2642,
+     "precision_proxy": 1.0,
+     "recall_proxy": 1.0
+    },
+    "geometric": {
+     "n_survivors": 2615,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.9897804693414081
+    },
+    "temporal": {
+     "n_survivors": 1880,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.7115821347464042
+    },
+    "cap": {
+     "n_survivors": 1880,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.7115821347464042
+    }
+   },
+   "frame_coverage_recall": {
+    "n_stable_track_frames": 2603,
+    "recall_without_interpolation": 0.711102573953131,
+    "recall_with_interpolation": 0.7322320399538993,
+    "recall_gain_from_interpolation": 0.021129466000768343
+   },
+   "multibox_resolution": {
+    "n_multibox_frames": 33,
+    "frac_resolved_to_cap": 1.0
+   },
+   "interpolation_rate": 0.026187803965581742
+  },
+  "ff30f5ac_t022": {
+   "status_counts": {
+    "reported": 5018,
+    "merged": 87,
+    "interpolated": 86,
+    "rejected": 70
+   },
+   "proxy_precision_recall": {
+    "raw": {
+     "n_survivors": 5289,
+     "precision_proxy": 1.0,
+     "recall_proxy": 1.0
+    },
+    "geometric": {
+     "n_survivors": 5229,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.9886557005104935
+    },
+    "temporal": {
+     "n_survivors": 5206,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.9843070523728493
+    },
+    "cap": {
+     "n_survivors": 5205,
+     "precision_proxy": 1.0,
+     "recall_proxy": 0.9841179807146909
+    }
+   },
+   "frame_coverage_recall": {
+    "n_stable_track_frames": 5175,
+    "recall_without_interpolation": 0.9874396135265701,
+    "recall_with_interpolation": 0.989951690821256,
+    "recall_gain_from_interpolation": 0.00251207729468599
+   },
+   "multibox_resolution": {
+    "n_multibox_frames": 92,
+    "frac_resolved_to_cap": 1.0
+   },
+   "interpolation_rate": 0.016346702147880632
+  },
+  "ff5d0d5c_t007": {
+   "status_counts": {
+    "reported": 4619,
+    "merged": 141,
+    "rejected": 58,
+    "interpolated": 160
+   },
+   "proxy_precision_recall": {
+    "raw": {
+     "n_survivors": 4986,
+     "precision_proxy": 0.99779382270357,
+     "recall_proxy": 1.0
+    },
+    "geometric": {
+     "n_survivors": 4959,
+     "precision_proxy": 0.9981851179673321,
+     "recall_proxy": 0.9949748743718593
+    },
+    "temporal": {
+     "n_survivors": 4922,
+     "precision_proxy": 0.9981714750101585,
+     "recall_proxy": 0.987537688442211
+    },
+    "cap": {
+     "n_survivors": 4920,
+     "precision_proxy": 0.9985772357723577,
+     "recall_proxy": 0.987537688442211
+    }
+   },
+   "frame_coverage_recall": {
+    "n_stable_track_frames": 4807,
+    "recall_without_interpolation": 0.9916788017474516,
+    "recall_with_interpolation": 0.9939671312669024,
+    "recall_gain_from_interpolation": 0.002288329519450801
+   },
+   "multibox_resolution": {
+    "n_multibox_frames": 134,
+    "frac_resolved_to_cap": 1.0
+   },
+   "interpolation_rate": 0.03214142225793491
+  }
+ },
+ "stage_precision_recall_summary": {
+  "raw": {
+   "mean_precision_proxy": 0.9981533196004769,
+   "mean_recall_proxy": 1.0
+  },
+  "geometric": {
+   "mean_precision_proxy": 0.9981861279344628,
+   "mean_recall_proxy": 0.986072582126337
+  },
+  "temporal": {
+   "mean_precision_proxy": 0.9984519794628707,
+   "mean_recall_proxy": 0.950824453037759
+  },
+  "cap": {
+   "mean_precision_proxy": 0.9991792693072571,
+   "mean_recall_proxy": 0.9449775010755632
+  }
+ },
+ "interpolation_rate": {
+  "mean": 0.05596639132784016,
+  "std": 0.05499539350658631,
+  "flagged_clips": [
+   "beb348be_t000"
+  ]
+ },
+ "synthetic_dropout": {
+  "2": {
+   "n_trials": 15,
+   "recovery_rate": 1.0,
+   "mean_iou": 0.975954198230101,
+   "mean_center_dist_px": 1.4952872636884917
+  },
+  "5": {
+   "n_trials": 15,
+   "recovery_rate": 1.0,
+   "mean_iou": 0.9381621799917831,
+   "mean_center_dist_px": 4.554498550104841
+  },
+  "10": {
+   "n_trials": 15,
+   "recovery_rate": 0.7333333333333333,
+   "mean_iou": 0.8967547812534135,
+   "mean_center_dist_px": 8.279488087683044
+  },
+  "22": {
+   "n_trials": 15,
+   "recovery_rate": 0.9333333333333333,
+   "mean_iou": 0.8092426140556189,
+   "mean_center_dist_px": 25.068100965520383
+  },
+  "32": {
+   "n_trials": 15,
+   "recovery_rate": 0.0,
+   "mean_iou": null,
+   "mean_center_dist_px": null
+  },
+  "44": {
+   "n_trials": 15,
+   "recovery_rate": 0.0,
+   "mean_iou": null,
+   "mean_center_dist_px": null
+  }
+ }
+}

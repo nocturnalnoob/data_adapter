@@ -1,0 +1,30 @@
+{
+ "class_name": "hands",
+ "class_max": 2,
+ "candidate_pool_width": 3,
+ "duplicate_overlap_threshold": 0.6,
+ "min_area_px2": 3722.894316000003,
+ "max_area_px2": 460050.83995500254,
+ "max_aspect_ratio": 3.0816578193492017,
+ "stereo_enabled": false,
+ "reach_disparity_threshold_px": null,
+ "stereo_match_min_confidence": 0.5,
+ "max_speed_px_per_frame": 142.79055101570336,
+ "association_iou_weight": 0.5,
+ "min_track_len_supported": 3,
+ "static_window_frames": 15,
+ "static_motion_px_threshold": 2.5558731382815165,
+ "static_correlation_threshold": 0.2,
+ "camera_speed_moving_thresh": 0.078,
+ "camera_ang_moving_thresh_deg": 0.3355592347112577,
+ "max_dropout_frames": 22,
+ "resume_gate_px": 60.0,
+ "border_margin_px": 50.0,
+ "border_weights": {
+  "top": 0.6,
+  "bottom": 1.6,
+  "left": 1.0,
+  "right": 1.0
+ },
+ "outward_velocity_min_px_per_frame": 2.0
+}
